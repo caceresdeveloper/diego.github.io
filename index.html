@@ -1,11 +1,221 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-7">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emprendedores UPTC</title>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>hello</h1>
-</body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="logo">
+        <img src="/img/logo.png" alt="">
+      </div>
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Buscar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explorar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Apóyame</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login">
+          <button class="btn btn-outline-success"><a href="#">login</a></button>
+  
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div>
+    <div class="container">
+      <div class="d-flex">
+        <div class="col-sm-4">
+          <p>
+          <h3>¿como funciona?</h3>
+          <p>busca los emprendimientos de tu preferencia y ayuda mejorar la conexion con los posibles vendedores o si
+            deseas vender te ayuda a mostrar tu producto en el mercado </p>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p>
+          <h3>¿quienes pueden publicar en la pagina?</h3>
+          <p>estamos en busca de los mejores emprendimientos de la UPTC, por ende esta aplicacion esta desarrollada
+            para se usada por estudiantes pertenecientes a la Universidad </p>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p>
+          <h3>¿metodo de pago?</h3>
+          <p>la aplicacion le ayudara a conectar con el vendedor el cual acordara con usted el metodo de pago y de
+            entrega de
+            su preferencia </p>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://escuelamarketingastronomico.net/wp-content/uploads/2020/08/como-iniciar-un-negocio-de-venta-de-comida-a-domicilio-1-1-1024x576.png"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.shopify.com/s/files/1/0229/0839/files/Camion_de_comida.jpg?v=1631179799"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://cdn.shopify.com/s/files/1/0229/0839/files/Inspirate_con_Sugar_Spoon.jpg?v=1631180111"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <div class="negocio">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <p class="fs-2">Conecta con tus clientes</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-people-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+              </svg>
+            </div>
+            <div class="col">
+              <p class="fs-2">Califica tu vendedor</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+            </div>
+            <div class="col">
+              <p class="fs-2">Apoya la comunidad</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-emoji-laughing-fill" viewBox="0 0 16 16">
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z" />
+              </svg>
+            </div>
+            <div class="col">
+              <p class="fs-2">Acuerda el pago</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash-coin"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+                <path
+                  d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" />
+                <path
+                  d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
+                <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <h4>Emprendimientos</h4>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUiEflrcJFHlCxNSoTMsCPszt_LbbBNsopdg&usqp=CAU"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <button class="btn btn-outline-success">Ver Productos</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <h4>Comida</h4>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUiEflrcJFHlCxNSoTMsCPszt_LbbBNsopdg&usqp=CAU"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <button class="btn btn-outline-success">Ver Productos</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <h4>Productos</h4>
+              <img src="https://lne.gg/img/events/img_main__1632592331.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <button class="btn btn-outline-success">Ver Productos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column ">
+        <a href="http://www.facebook.com" class="color1">Facebook</a>
+        <a href="http://www.threads.com" class="color1">threads</a>
+        <a href="http://www.instagram.com" class="color1">instagram</a>
+      </div>
+      <div class="col-sm-4">
+        <address>
+          <h3 class="color1">Sogamoso,Boyaca</h3>
+          <p class="color1">+573148814343</p>
+          <p class="color1">emprendedorespool.02@uptc.edu.co</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="http://www.facebook.com" class="color1">Nosotros</a>
+        <a href="http://www.threads.com" class="color1">Precios</a>
+        <a href="http://www.instagram.com" class="color1">Terminos y Condiciones</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </html>
